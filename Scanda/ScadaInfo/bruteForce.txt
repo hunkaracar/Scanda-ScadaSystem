@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <arpa/inet.h>
+#include <sys/socket.h>
+
+#define PORT 502
+#define SERVER_IP "127.0.0.1"
+
+int main() {
+    int sockfd;
+    struct sockaddr_in server_addr;
+
+    // Socket oluştur
+    if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) == -1) {
+        perror("Socket oluşturulamadı");
+        exit(EXIT_FAILURE);
+    }
+
+    // Server adresini ayarla
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_port = htons(PORT);
+    server_addr.sin_addr.s_addr = inet_addr(SERVER_IP);
+
+    // Server'a bağlan
+    if (connect(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr)) == -1) {
+        perror("Bağlantı hatası");
+        exit(EXIT_FAILURE);
+    }
+
+    // Şifre deneme işlemi
+    char password[20];
+    printf("Şifreyi deneyin: ");
+    scanf("%s", password);
+
+    // Şifreyi server'a gönder
+    send(sockfd, password, strlen(password), 0);
+
+    // Server'dan yanıtı al
+    char response[100];
+    recv(sockfd, response, sizeof(response), 0);
+
+    // Yanıtı ekrana yazdır
+    printf("Server yanıtı: %s\n", response);
+
+    // Soketi kapat
+    close(sockfd);
+
+    return 0;
+}
+

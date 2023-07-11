@@ -1,0 +1,34 @@
+    Uygulama: Elektrik Enerjisi Dağıtımı
+        Protokol: IEC 61850
+        Endüstri: Enerji
+        Gereksinimler: Yüksek hızlı iletişim, zaman senkronizasyonu, geniş kapsamlı veri modelleme
+
+    Uygulama: Su Arıtma ve Dağıtımı
+        Protokol: DNP3
+        Endüstri: Su ve Atık Su
+        Gereksinimler: Uzaktan telemetri, alarm yönetimi, veri bütünlüğü
+
+    Uygulama: Akıllı Binalar ve HVAC Kontrolü
+        Protokol: BACnet
+        Endüstri: Yapı Otomasyonu
+        Gereksinimler: HVAC sistemi entegrasyonu, enerji yönetimi, cihaz yönetimi
+
+    Uygulama: Endüstriyel Otomasyon
+        Protokol: Modbus TCP/IP
+        Endüstri: İmalat, Otomotiv, Enerji
+        Gereksinimler: Veri toplama, süreç kontrolü, aygıt iletişimi
+
+    Uygulama: Akıllı Şebekeler (Smart Grid)
+        Protokol: IEC 60870-5-104
+        Endüstri: Enerji
+        Gereksinimler: Gerçek zamanlı veri paylaşımı, hızlı veri iletimi, güvenilirlik
+
+    Uygulama: Yangın ve Güvenlik Sistemleri
+        Protokol: OPC (OLE for Process Control)
+        Endüstri: Güvenlik
+        Gereksinimler: Veri entegrasyonu, olay yönetimi, alarm bildirimleri
+
+    Uygulama: Ulaşım ve Trafik Kontrolü
+        Protokol: Profibus
+        Endüstri: Ulaşım
+        Gereksinimler: Veri aktarımı, trafik sinyalizasyonu, sensör iletişimi

@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <unistd.h>
+
+#define BUFFER_SIZE 1024
+
+char* read_response(int sockfd) {
+    char buffer[BUFFER_SIZE];
+    memset(buffer, 0, sizeof(buffer));
+    
+    if (read(sockfd, buffer, sizeof(buffer) - 1) < 0) {
+        perror("Could not read response from server");
+        exit(1);
+    }
+    
+    printf("\nResponse from Server: %s\n", buffer);
+    return strdup(buffer);
+}
+
+void get_version_info(const char* target_ip, int port) {
+    int sockfd;
+    struct sockaddr_in server_addr;
+    
+    if ((sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+        perror("Socket creation failed");
+        exit(1);
+    }
+    
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_port = htons(port);
+    
+    if (inet_pton(AF_INET, target_ip, &(server_addr.sin_addr)) <= 0) {
+        perror("Invalid address/Address not supported");
+        exit(1);
+    }
+    
+    if (connect(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr)) < 0) {
+        perror("Connection failed");
+        exit(1);
+    }
+    
+    printf("\nConnected to %s on port %d\n", target_ip, port);
+    
+    char* response = read_response(sockfd);
+    
+    // Burada response'dan versiyon bilgisini analiz edebilirsiniz.
+    // Örneğin, SSH için "SSH-2.0" banner'ını kontrol edebilirsiniz.
+    // Her port ve protokol kombinasyonu için farklı bir işlem yapmanız gerekebilir.
+    
+    free(response);
+    close(sockfd);
+}
+
+int main() {
+    const char* target_ip = "hedef_ip_adresi";
+    int num_ports = sizeof(ports) / sizeof(ports[0]);
+    
+    for (int i = 0; i < num_ports; i++) {
+        get_version_info(target_ip, ports[i]);
+    }
+    
+    return 0;
+}

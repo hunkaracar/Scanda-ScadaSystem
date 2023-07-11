@@ -1,0 +1,10 @@
+
+SCADA Güvenliği
+
+SCADA sistemleri; yerel veya uzak endüstriyel proseslerin kontrolü, gerçek zamanlı verileri izlemek toplamak ve işlemek, sensör gibi cihazlarla doğrudan etkileşim ve olay kayıtlarını tutmak gibi servisleri sunan yazılım ve donanım tabanlı endüstriyel denetim sistemleridir.
+SCADA sistemleri kritik altyapıları denetleme işlemini gerçekleştirdikleri için siber saldırılardan korunmaları büyük önem taşımaktadır.
+
+Asıl olarak üretim süreçlerini denetim ve gözetleme gibi görevleri yerine getirmeye yönelik geliştirilen SCADA sistemleri güvenlik ve siber tehditlere karşı korunma gibi kritik işlevler göz önünde bulundurulmadan tasarlanmışlardır.
+Bu nedenle bu sistemler genel olarak açıklık barındıran sistemler olarak tanımlanmaktadır.
+
+SCADA sistemlerinin zafiyetleri arasında Programlanabilir Mantıksal Denetleyici (Programmable Logic Controller – PLC) bileşeninin veri sağlayan sahadaki sensörlere doğrudan bağlı olması ve ethernet kartlarında sabit kodlanmış olan varsayılan(default) şifrelerin değiştirilmeden kullanılması sayılabilir.

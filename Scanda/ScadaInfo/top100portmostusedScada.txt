@@ -1,0 +1,101 @@
+
+    Port 20: FTP (File Transfer Protocol)
+    Port 21: FTP (File Transfer Protocol)
+    Port 22: SSH (Secure Shell)
+    Port 23: Telnet
+    Port 25: SMTP (Simple Mail Transfer Protocol)
+    Port 53: DNS (Domain Name System)
+    Port 69: TFTP (Trivial File Transfer Protocol)
+    Port 80: HTTP (Hypertext Transfer Protocol)
+    Port 88: Kerberos
+    Port 110: POP3 (Post Office Protocol version 3)
+    Port 123: NTP (Network Time Protocol)
+    Port 143: IMAP (Internet Message Access Protocol)
+    Port 161: SNMP (Simple Network Management Protocol)
+    Port 179: BGP (Border Gateway Protocol)
+    Port 194: IRC (Internet Relay Chat)
+    Port 389: LDAP (Lightweight Directory Access Protocol)
+    Port 443: HTTPS (HTTP Secure)
+    Port 445: SMB (Server Message Block)
+    Port 465: SMTP over SSL/TLS (Secure SMTP)
+    Port 514: Syslog
+    Port 520: RIP (Routing Information Protocol)
+    Port 636: LDAPS (LDAP Secure)
+    Port 989: FTPS (FTP Secure)
+    Port 990: FTPS (FTP Secure)
+    Port 992: Telnet Secure
+    Port 993: IMAPS (IMAP Secure)
+    Port 995: POP3S (POP3 Secure)
+    Port 1023: Reserved
+    Port 1024: Reserved
+    Port 1025: NFS (Network File System)
+    Port 1026: LSA or NSA
+    Port 1080: SOCKS proxy
+    Port 1194: OpenVPN
+    Port 1234: NetBus
+    Port 1433: Microsoft SQL Server
+    Port 1434: Microsoft SQL Server
+    Port 1521: Oracle database
+    Port 1701: L2TP (Layer 2 Tunneling Protocol)
+    Port 1723: PPTP (Point-to-Point Tunneling Protocol)
+    Port 1812: RADIUS (Remote Authentication Dial-In User Service)
+    Port 1813: RADIUS (Remote Authentication Dial-In User Service)
+    Port 2049: NFS (Network File System)
+    Port 2181: Apache ZooKeeper
+    Port 2222: EtherNet/IP Implicit Messaging
+    Port 2375: Docker REST API
+    Port 2427: Cisco MGCP (Media Gateway Control Protocol)
+    Port 2428: Cisco MGCP (Media Gateway Control Protocol)
+    Port 3000: Node.js
+    Port 3030: Redwood Broker
+    Port 3128: Squid Proxy
+    Port 3306: MySQL database
+    Port 3389: RDP (Remote Desktop Protocol)
+    Port 3690: SVN (Subversion)
+    Port 4000: ScadaBR
+    Port 4040: IoP (Internet of People)
+    Port 4321: Reflector
+    Port 4567: Apache Guacamole
+    Port 47808: BACnet/IP
+    Port 47809: BACnet/IP
+    Port 5000: HMI (Human-Machine Interface)
+    Port 5001: HMI (Human-Machine Interface)
+    Port 5020: Sur-Gard MLR2-IP Alarm Receiver
+    Port 5432: PostgreSQL database
+    Port 5631: pcAnywhere
+    Port 5632: pcAnywhere
+    Port 5900: VNC (Virtual Network Computing)
+    Port 6000: X11 (X Window System)
+    Port 6001: X11 (X Window System)
+    Port 6379: Redis
+    Port 6666: IRC (Internet Relay Chat)
+    Port 6667: IRC (Internet Relay Chat)
+    Port 8000: SCADA Web Server
+    Port 8080: HTTP proxy
+    Port 8081: HTTP proxy
+    Port 8443: HTTPS proxy
+    Port 8888: Web proxy
+    Port 9000: SCADA Web Server
+    Port 9001: SCADA Web Server
+    Port 9100: JetDirect (Printer Server)
+    Port 9200: Elasticsearch
+    Port 9500: Scada-LTS
+    Port 9600: MQTT (Message Queuing Telemetry Transport)
+    Port 9876: Radan HTTP
+    Port 9999: UrBackup
+    Port 10000: Network Data Management Protocol (NDMP)
+    Port 10001: UrBackup
+    Port 10243: WinRM (Windows Remote Management)
+    Port 11211: Memcached
+    Port 12345: NetBus
+    Port 13720: Symantec NetBackup
+    Port 16010: HBase Master
+    Port 27017: MongoDB
+    Port 30718: OpenMUC
+    Port 49152: SCADA
+    Port 49153: SCADA
+    Port 49154: SCADA
+    Port 49155: SCADA
+    Port 49156: SCADA
+    Port 49157: SCADA
+    Port 49158: SCADA

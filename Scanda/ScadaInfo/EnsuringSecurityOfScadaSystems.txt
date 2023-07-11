@@ -1,0 +1,13 @@
+SCADA Sistemlerin Güvenliği Sağlanması Gereken Kritik Bileşenleri ve Atak Yüzeyi
+
+- Süreçleri izleme ve kontrol etmeye yardımcı olan insan-makine ara yüzünden oluşan kontrol paneli
+-  Sensörler ile SCADA sistemi arasındaki iletişimi sağlayan Uzak Uç Birimi(Remote Terminal Unit)
+- Verileri alma ve süreçleri kontrol işlemlerini gerçekleştiren denetleme sistemi(supervisory control)
+- Programlanabilir Mantıksal Denetleyici(PLC)
+- Denetim sistemini sahadaki cihazlara ve uzak uç birimlere bağlayan haberleşme altyapısı
+- Süreçler
+- İnternet, kurum ağı ve çevrel bileşenler
+- Güvenlik kuralları  ve prosedürler(iş sürekliliği, felaket kurtarma)
+- Ağ mimarisi(güvenlik duvarı, yönlendirici(router), anahtarlama cihazları(switch), VPN’ler)
+- Ağ işletim sistemleri(aktif dizin, etki alanı)
+- Bilgisayar güvenliği(sunucu ve iş istasyonu güvenliği)

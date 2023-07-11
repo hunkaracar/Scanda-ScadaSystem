@@ -1,0 +1,71 @@
+
+1. MQTT (Message Queuing Telemetry Transport):
+    Akıllı ev sistemleri (akıllı aydınlatma, güvenlik sistemleri) ==> Port 1883(default) 8883
+    Enerji izleme ve yönetimi
+    Tarım sektörü (uzaktan izleme ve kontrol)
+
+2. Ethernet/IP:
+    Otomotiv endüstrisi (otomotiv üretim hatları)
+    Gıda ve içecek endüstrisi (üretim hatları, paketleme)        ==> Port 44818 2222
+    Lojistik ve dağıtım (otomatik depolama ve taşıma sistemleri)
+
+3. Profinet:
+    Endüstriyel otomasyon sistemleri
+    Robotik sistemler ve otomasyon         ==> Port Standart 102
+    Denizcilik ve gemi inşa endüstrisi
+
+4. HART (Highway Addressable Remote Transducer):
+    Proses kontrolü ve izleme (petrokimya, rafineri)    ==> Belirli bir port kullanmaz
+    Enerji üretimi ve dağıtımı (elektrik santralleri)
+    Su ve atıksu yönetimi
+
+5. WirelessHART:
+    Petrol ve gaz endüstrisi (yüzey ve yeraltı üretim)     ==> Belirli bir port kullanmaz
+    Kimya ve petrokimya tesisleri
+    Gıda ve içecek endüstrisi (sensör tabanlı izleme)
+
+6. Modbus TCP/IP:
+    Endüstriyel otomasyon sistemleri (fabrikalar, üretim hatları)
+    Enerji dağıtımı ve kontrolü						==> Port 502
+    Uzaktan izleme ve kontrol sistemleri
+
+7. Zigbee:
+    Akıllı ev sistemleri (ısıtma, soğutma, aydınlatma)
+    Perakende otomasyonu (envanter yönetimi, etiketleme)      ==> Belirli bir port kullanmaz
+    Akıllı şehirler (aydınlatma, trafik yönetimi)
+
+8. Bluetooth Low Energy (BLE):
+    Tüketici elektroniği (akıllı saatler, fitness takipçileri)
+    Sağlık ve medikal cihazlar (kan basıncı monitörleri, kalp atış hızı sensörleri)  ==> Belirli bir port kullanmaz
+    Perakende sektörü (beacon tabanlı pazarlama, müşteri izleme)
+
+9. Z-Wave:
+    Akıllı ev sistemleri (güvenlik sistemleri, enerji izleme)
+    Oteller ve konaklama tesisleri (odaların otomasyonu)     ==> Belirli bir port kullanmaz
+    İklim kontrol sistemleri
+
+10. OPC UA (Unified Architecture):
+    Endüstriyel otomasyon sistemleri
+    Veri toplama ve analizi                                  ==> Port 4840 62541 
+    Akıllı şebekeler (enerji dağıtımı, yenilenebilir enerji)
+
+11. CANopen:
+    Otomotiv endüstrisi (araç içi ağlar, araç kontrol sistemleri)   ==> Belirli bir port kullanmaz
+    Endüstriyel otomasyon sistemleri
+    Medikal cihazlar ve tıbbi ekipmanlar
+
+12. DeviceNet:
+    Endüstriyel otomasyon sistemleri (ürün izleme, sensör ağları)   ==> Belirli bir port kullanmaz
+    Paketleme ve malzeme taşıma sistemleri
+    Otomatik kontrol ve izleme sistemleri
+
+13. Foundation Fieldbus:
+    Proses kontrol sistemleri (kimya, petrol ve gaz)
+    Su ve atıksu yönetimi				   ==> Belirli bir port kullanmaz
+    Enerji üretimi (nükleer, hidroelektrik santraller)
+
+
+14. KNX:
+    Bina otomasyonu (aydınlatma, perde kontrolü)
+    Otel ve konaklama tesisleri (odaların otomasyonu)    ==> Belirli bir port kullanmaz
+    Akıllı ev sistemleri

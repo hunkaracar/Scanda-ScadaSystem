@@ -1,0 +1,6 @@
+
+SCADA Sistemlerinin Zafiyetleri
+
+- Akıllı şebeke cihazlarını ve sistemleri birbirine bağlayan iletişim ağları SCADA sistemlerine daha fazla erişim noktası oluşmasına neden olmaktadır, bu da atak vektörünü arttırmaktadır.
+- Akıllı şebeke sistemleri kullandıkları yaygın ve lisanslı teknolojilerin zafiyetlerini barındırabilmektedir.
+- Veri işleyen haberleşme sistemleri de önlem alınmadığı takdirde güvenlik riskleri oluşturacaktır.
